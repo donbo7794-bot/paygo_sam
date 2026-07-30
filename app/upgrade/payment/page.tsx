@@ -32,7 +32,7 @@ export default function UpgradePaymentPage() {
   }
 
   const handleCopyAccountNumber = () => {
-    navigator.clipboard.writeText("3193895997")
+    navigator.clipboard.writeText("9038834387")
     setCopiedAccount(true)
     setTimeout(() => setCopiedAccount(false), 2000)
   }
@@ -95,7 +95,7 @@ export default function UpgradePaymentPage() {
                 <span>🔢</span> Account Number
               </p>
               <div className="flex items-center justify-between">
-                <p className="font-bold">3193895997</p>
+                <p className="font-bold">9038834387</p>
                 <button
                   onClick={handleCopyAccountNumber}
                   className="bg-orange-400 text-white px-3 py-1 rounded text-sm"
@@ -109,14 +109,14 @@ export default function UpgradePaymentPage() {
               <p className="text-gray-700 mb-1 text-sm flex items-center gap-1">
                 <span>🏦</span> Bank Name
               </p>
-              <p className="font-bold">TENN MFB</p>
+              <p className="font-bold">PALMPAY</p>
             </div>
 
             <div>
               <p className="text-gray-700 mb-1 text-sm flex items-center gap-1">
                 <span>🚹</span> Account Name
               </p>
-              <p className="font-bold">Paygo-DAMILOLA DAPO IYASERE</p>
+              <p className="font-bold">Paygo-AKINNAWONU SAMSON BLESSING</p>
             </div>
           </div>
 
